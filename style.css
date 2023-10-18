@@ -1,0 +1,9 @@
+body{
+    margin:1rem;
+    background-color: lightgray;
+}
+
+label{
+    display: block;
+    margin: 1rem;
+}

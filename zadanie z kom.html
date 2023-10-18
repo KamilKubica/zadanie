@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form action="#">
+    <label for="text">imie<input type="text" name="text" id="text"></label>
+    <label for="text2">nazwisko <input type="text" name="text2" id="text2"></label>
+    <label for="address">Address <input type="address" name="address" id="address"></label> 
+    
+     <label for="password">haslo <input type="password" name="password" id="password"></label>
+
+     <fieldset>
+        
+        <label for="intel">intel<input type="radio" name="procesor" id="intel" /></label>
+        <label for="razen">razen<input type="radio" name="procesor" id="razen" /></label>
+        <label for="text3">wpisz nazwe procesora<input type="text" name="text3" id="text3"></label>
+        
+        <label for="opt">Rdzenie
+            <select name="opt" id="opt">
+    
+                <option>2 rdzenii</option>
+                <option>4 rdzenii</option>
+                <option>6 rdzenii</option>
+                <option>8 rdzenii</option>
+
+                <optgroup>
+                    <option>+8 rdzenii</option>
+                </optgroup>
+            </select>
+        </label>
+        <label for="number">ilosc procesorow<input type="number" name="number" id="number" max="2"/></label>
+        </fieldset>
+        <fieldset>
+        <label for="text4">wpisz nazwe pamieci ram <input type="text" name="text4" id="text4"></label>
+
+        <label for="opt2">typ ram
+            <select name="opt2" id="opt2">
+                <option>DDR   200   Mhz 400 Mhz</option>
+                <option>DDR2  400   Mhz 800 Mhz</option>
+                <option>DDR3  800   Mhz 2133 Mhz</option>
+                <option>DDR4  2133  Mhz 4266 Mhz</option>
+           </select>
+     </fieldset>
+     <fieldset>
+        <label for="text5">wpisz nazwe dysku<input type="text" name="text5" id="text5"></label>
+
+        <label for="HDD">HDD<input type="radio" name="dysk" id="HDD" /></label>
+        <label for="SSD">SSD<input type="radio" name="dysk" id="SSD" /></label>
+
+        <label for="opt3">pojemnosc dysku (w TB)
+            <select name="opt3" id="opt3">
+                <option>mniej niz 1</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>wiecej niz 4</option>
+           </select>
+        </fieldset>
+        <fieldset>
+            <label for="text6">wpisz nazwe plyty glownej <input type="text" name="text6" id="text6"></label>
+            <select name="opt4" id="opt4">
+                <option>ATX</option>
+                <option>EXTENDED ATX</option>
+                <option>MICRO ATX</option>
+                <option>MINI STX</option>
+           </select>
+
+        </fieldset>
+     
+        <fieldset>
+            <label for="text7">wpisz nazwe monitora<input type="text" name="text7" id="text7"></label>
+
+            <label for="opt5">Rozdzielczosc
+                <select name="opt5" id="opt5">     
+                    <option>1920x1080</option>
+                    <option>1680x1050</option>
+                    <option>1600x1024</option>
+                    <option>1600x900</option>
+                    <option>1440x1080</option>
+                </select>
+
+                <label for="color">wybierz kolor monitora<input type="color" name="color" id="color"></label>
+
+
+        </fieldset>
+
+     <label for="com">komentarz:</label>
+        <textarea name="com" id="com" cols="20" rows="5"></textarea>
+      
+   <footer>
+    <button type="reset">Reset form</button>
+        <button type="send">Send Survey</button>
+   </footer>
+
+</form>    
+</body>
+</html>
